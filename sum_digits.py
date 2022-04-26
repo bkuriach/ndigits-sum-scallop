@@ -356,7 +356,7 @@ if __name__ == "__main__":
 
     # Data
     # data_dir = os.path.abspath(os.path.join(os.path.abspath(__file__), "../../data"))
-    data_dir = '../data'
+    data_dir = './data'
 
     # Dataloaders
     train_loader, test_loader = mnist_sum_2_loader(data_dir, batch_size_train, batch_size_test)
