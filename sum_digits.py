@@ -295,6 +295,17 @@ def load_model():
     mnist_model = joblib.load('model/mnist_model')
     return mnist_model
 
+def show_image(img_1, img_2, sum_of_numbers):
+    fig = plt.figure()
+    plt.title('Predicted Sum ==> '+ str(sum_of_numbers))
+    ax1 = fig.add_subplot(1,2,1)
+    ax1.imshow(img_1.squeeze())
+    ax1.set_title('Input 1')
+    ax2 = fig.add_subplot(1,2,2)
+    ax2.imshow(img_2.squeeze())
+    ax2.set_title('Input 2')
+    plt.show()
+
 class Model_Inference:
     """
     Class for inference. Generator method would 
