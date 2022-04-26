@@ -9,7 +9,7 @@ Examples
 
 Assumption - Both input images has same number of digits.
 
-Prerequisites
+## Prerequisites
 
 1. Set up environment.
    conda env create -f environment.yml
