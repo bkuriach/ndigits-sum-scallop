@@ -1,5 +1,6 @@
 # mnist-ndigit-sum
-mnist-ndigit-sum
+
+Find the sum of numbers from 2 images and output result. Each input image can have ndigit number.
 
 Sum numbers from 2 input images
 Examples
@@ -10,10 +11,10 @@ Assumption - Both input images has same number of digits.
 
 Prerequisites
 
-1. Set up environment
+1. Set up environment.
    conda env create -f environment.yml
-2. Install Scallopy
+2. Install Scallopy.
    find respective version from https://scallop-lang.github.io/download.html and download wheel file
    pip install <wheel file>
-3. Execute sum_digits.ipynb (pre-loaded with results)
-4. Run sum_digits.py to train new mnist-model
+3. Execute sum_digits.ipynb (pre-loaded with results).
+4. Run sum_digits.py to train new mnist-model.
