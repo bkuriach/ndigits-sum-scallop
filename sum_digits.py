@@ -379,7 +379,8 @@ if __name__ == "__main__":
     """uncomment if model needs to be saved, this will overwrite the current 
     model being used for inference"""
     # joblib.dump(trainer.network, 'model/mnist_model')
-
+    
+    # Inference - this will use the model which is saved in 'model/mnist_model'
     model_inference = Model_Inference(no_of_digits = 2)
     img_1, img_2, sum_of_numbers = model_inference.sum_numbers_genereator_images()
 
