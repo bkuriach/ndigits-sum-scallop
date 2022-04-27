@@ -383,6 +383,10 @@ if __name__ == "__main__":
     # Inference - this will use the model which is saved in 'model/mnist_model'
     model_inference = Model_Inference(no_of_digits = 2)
     img_1, img_2, sum_of_numbers = model_inference.sum_numbers_genereator_images()
+    plt.imshow(img_1.squeeze())
+    plt.savefig('output/image_1.png')
+    plt.imshow(img_2.squeeze())
+    plt.savefig('output/image_2.png')
 
 
 
